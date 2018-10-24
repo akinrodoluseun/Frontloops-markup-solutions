@@ -1,0 +1,78 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    background: #a287fa;
+    color: grey;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 70%;
+    border-radius: 5px;
+    text-align: center;
+    background: white;
+    display: flex;
+    line-height: 1.2em;
+    font-size: 1.1em;
+    padding: 15px 15px 30px 15px;
+    text-overflow: hidden;
+    box-shadow: 30px #8e98f5;
+   
+}
+img {
+    width: 65px;
+    height: 65px;
+    margin: 10px 10px 10px 10px;
+}
+ h3{
+     color: #a287fa;
+     letter-spacing: 0.1em;
+ }
+ .color:hover{
+     background: #f2f4fb;
+     transition: background-color 0.2s ease;
+     border-radius: 7px;
+ }
+.device{
+    width:30%;
+    display: inline-block;
+    padding: 0 60px 0 60px;
+}
+.laptop{
+    width:30%;
+    display: inline-block;
+    padding: 0 60px 0 60px;
+}
+.monitor{
+    width:30%;
+    display: inline-block;
+    padding: 0 60px 0 60px;
+}
+.price{
+   display: flex;
+   color: #a287fa;
+   justify-content: center;
+   align-items: flex-start;
+   height: 70px;
+   margin-bottom: 30px;
+}
+.sign{
+    margin-top: 30px;
+
+}
+.amount{
+    font-weight: 500;
+    margin-right: 7px;
+    margin-bottom: 5px;
+    align-self: flex-end;
+    font-size: 40px;
+}
+.month{
+    align-self: flex-end;
+}
